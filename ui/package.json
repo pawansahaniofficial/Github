@@ -1,3 +1,4 @@
+
 {
   "name": "ui",
   "private": true,
@@ -19,7 +20,7 @@
     "framer-motion": "^14.7.1",
     "fs-extra": "^11.4.1",
     "lucide-react": "^1.64.0",
-    "papaparse": "^7.0.0",
+    "papaparse": "^5.4.1",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "react-router-dom": "^6.23.1",

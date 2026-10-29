@@ -1,0 +1,11 @@
+{
+  "scope": "all_fetched_refs",
+  "complete_claimed": false,
+  "limitations": [
+    "Deleted/unfetched/unreachable history cannot be recovered from the clone."
+  ],
+  "shallow_clone": false,
+  "commits": [],
+  "branches": [],
+  "tags": []
+}

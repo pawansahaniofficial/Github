@@ -1,0 +1,241 @@
+{
+  "repo": ".",
+  "target_path": ".",
+  "mode": "stage1",
+  "is_git": false,
+  "ground_truth": {
+    "git": {
+      "commit_count": 0,
+      "unique_contributors": 0,
+      "branch_count": 0,
+      "meaningful_commit_count": 0,
+      "last_update": null,
+      "first_commit": null,
+      "active_span_months": 0,
+      "history_integrity": {
+        "appears_intact": false,
+        "has_merge_commits": false,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": []
+      },
+      "all_contributors": [],
+      "all_contributors_count": 0,
+      "default_branch": null,
+      "analysis_branch": null,
+      "branch_selection_source": null,
+      "source": "git"
+    },
+    "loc": {
+      "value": 7042,
+      "breakdown": {
+        "authored": 7042,
+        "non_authored": 0,
+        "total": 7042,
+        "comment": 263,
+        "blank": 500,
+        "nFiles": 17,
+        "authored_comment": 263,
+        "authored_blank": 500,
+        "authored_nFiles": 17
+      },
+      "source": "scc",
+      "definition": "Authored LOC excludes SCC-detected generated files and configured non-authored dependency/vendor/build/migration directories."
+    },
+    "languages": {
+      "total_count": 6,
+      "core_count": 1,
+      "core_list": [
+        "Python"
+      ],
+      "list": [
+        "CSV",
+        "JSON",
+        "Markdown",
+        "Python",
+        "Plain Text",
+        "YAML"
+      ],
+      "breakdown": {
+        "CSV": {
+          "loc": 12,
+          "files": 6,
+          "pct": 0.17
+        },
+        "JSON": {
+          "loc": 388,
+          "files": 5,
+          "pct": 5.51
+        },
+        "Markdown": {
+          "loc": 288,
+          "files": 2,
+          "pct": 4.09
+        },
+        "Python": {
+          "loc": 6337,
+          "files": 2,
+          "pct": 89.99
+        },
+        "Plain Text": {
+          "loc": 4,
+          "files": 1,
+          "pct": 0.06
+        },
+        "YAML": {
+          "loc": 13,
+          "files": 1,
+          "pct": 0.18
+        }
+      },
+      "source": "scc"
+    }
+  },
+  "tool_metrics": {},
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": true,
+      "hasConfig": true,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 4,
+      "files": 13,
+      "extensions": {
+        ".yaml": 1,
+        ".md": 2,
+        ".unknown": 1,
+        ".example": 1,
+        ".py": 2,
+        ".txt": 1,
+        ".json": 5
+      },
+      "test_file_count": 2
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.0,
+    "stage0_5_seconds": 0.0,
+    "total_seconds": 0.26
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "total_pr_comments_count": 0,
+    "open_pr_comments_count": 0,
+    "closed_pr_comments_count": 0,
+    "merged_pr_comments_count": 0,
+    "total_pr_review_comment_count": 0,
+    "open_pr_review_comment_count": 0,
+    "closed_pr_review_comment_count": 0,
+    "merged_pr_review_comment_count": 0,
+    "github_pr_analysis_available": false,
+    "pr_content_tokens": {
+      "total": 0,
+      "titles_bodies": 0,
+      "discussion": 0,
+      "commit_messages": 0
+    },
+    "pr_content_tokens_lexical": {
+      "total": 0,
+      "titles_bodies": 0,
+      "discussion": 0,
+      "commit_messages": 0
+    }
+  },
+  "supplemental_extraction": {
+    "git_history_commit_count": 0,
+    "branch_count": 0,
+    "tag_count": 0,
+    "test_file_count": 0,
+    "ci_configuration_file_count": 0,
+    "retained_test_report_count": 0
+  },
+  "full_report_snapshot": {
+    "repo_name": ".",
+    "is_git": false,
+    "license_type": "N/A",
+    "first_commit_date": null,
+    "last_commit_date": null,
+    "authored_loc": 7042,
+    "non_authored_loc": 0,
+    "loc_comment": 263,
+    "loc_blank": 500,
+    "loc_files": 17,
+    "lang_count": 1,
+    "languages": "Python",
+    "languages_frontend": "",
+    "languages_backend": "Python",
+    "commits": 0,
+    "contributors": 0,
+    "all_contributors_count": 0,
+    "all_contributors": "",
+    "branch_count": 0,
+    "default_branch": null,
+    "analysis_branch": null,
+    "branch_selection_source": null,
+    "meaningful_commit_count": 0,
+    "development_span_months": 0,
+    "commits_per_month": "0 commits/mo",
+    "git_history_intact": false,
+    "tokens_llm_code": 0,
+    "tokens_llm_docs": 0,
+    "tokens_llm_config": 0,
+    "tokens_llm_repository": 0,
+    "tokens_llm_pr": 0,
+    "tokens_llm_grand_total": 0,
+    "lexical_token_code": 0,
+    "lexical_token_docs": 0,
+    "lexical_token_config": 0,
+    "lexical_token_repository": 0,
+    "lexical_token_pr": 0,
+    "lexical_token_grand_total": 0,
+    "duplication_weighted_percent": "0.0%",
+    "code_complexity": "Low",
+    "ai_detection_percent": "0.0%",
+    "frameworks": "",
+    "framework_frontend": "",
+    "framework_backend": "",
+    "databases_used": "",
+    "third_party_apis": "",
+    "setup_guidelines": "Not found in README",
+    "security_findings": "Clean",
+    "documentation_quality": "Low",
+    "repo_rating_score": 0,
+    "repo_rating_label": "N/A",
+    "languages_percentage_bytes(>5%)": "N/A",
+    "frameworks_percentage_bytes(>5%)": "None Detected",
+    "total_time_seconds": 0.26,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "total_pr_comments_count": 0,
+    "open_pr_comments_count": 0,
+    "closed_pr_comments_count": 0,
+    "merged_pr_comments_count": 0,
+    "total_pr_review_comment_count": 0,
+    "open_pr_review_comment_count": 0,
+    "closed_pr_review_comment_count": 0,
+    "merged_pr_review_comment_count": 0,
+    "github_pr_analysis_available": false,
+    "deployment_env": "",
+    "environment_variables": "N/A",
+    "stars": "N/A",
+    "forks": "N/A",
+    "watchers": "N/A",
+    "open_issues": "N/A",
+    "creation_date": "N/A",
+    "authored_loc_verified": 7042,
+    "tokenizer_method": "N/A",
+    "pr_content_tokens_breakdown": {
+      "total": 0,
+      "titles_bodies": 0,
+      "discussion": 0,
+      "commit_messages": 0
+    }
+  }
+}
